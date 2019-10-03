@@ -36,9 +36,6 @@ char const * chaine_langue(char const * chaines[], char const * chaine_langue) {
 }
 
 int main(int argc, char * argv[]) {
-    (void)argc;
-    (void)argv;
-
     unsigned n;
 
     printf("%s\n", chaine_langue(prompts, argv[1]));
